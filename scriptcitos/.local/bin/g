@@ -1,0 +1,2 @@
+YES="$@"
+google-chrome --app="http://google.com/search?q=$YES"

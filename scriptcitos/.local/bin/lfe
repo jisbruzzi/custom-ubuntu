@@ -1,0 +1,9 @@
+tmp=$(mktemp)
+lf -selection-path=$tmp $@
+if test -f "$tmp"
+then
+        dir=$(cat $tmp)
+        rm -f $tmp
+        echo "$dir"
+fi
+
