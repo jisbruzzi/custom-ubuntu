@@ -13,4 +13,7 @@ Si no anda lo del dpi
 
 https://unix.stackexchange.com/questions/267885/how-do-i-scale-i3-window-manager-for-my-hidpi-display
 
+https://www.raspberrypi.org/forums/viewtopic.php?t=133691
 
+
+Este no se si anda https://www.raspberrypi.org/documentation/configuration/wireless/access-point.md
