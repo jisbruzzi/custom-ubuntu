@@ -1,0 +1,5 @@
+ignore_device:
+  - is_loop: true
+    ignore: true
+program_options:
+    menu: flat
