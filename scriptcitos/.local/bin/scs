@@ -1,0 +1,1 @@
+import png:- | xclip -in -selection clipboard -t image/png
