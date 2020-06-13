@@ -154,8 +154,6 @@ bindsym $mod+Shift+8 move container to workspace number 8
 bindsym $mod+Shift+9 move container to workspace number 9
 bindsym $mod+Shift+0 move container to workspace number 10
 
-# reload the configuration file
-bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
@@ -218,6 +216,10 @@ mode "pantalla" {
   bindsym Up exec bash configurar-monitores.sh 
   bindsym Escape mode "default"
   bindsym Return mode "default"
+  bindsym 1 exec p 1
+  bindsym 2 exec p 2
+  bindsym 3 exec p 3
+  bindsym 4 exec p 4
 }
 
 
@@ -228,3 +230,11 @@ bindsym $mod+z mode "pantalla"
 bindsym $mod+i exec emoji
 #Abrir terminales en cierto home
 bindsym $mod+Shift+t exec dir_rofi 'gnome-terminal --working-directory'
+#Abrir xfe en cierto home
+bindsym $mod+Shift+c exec dir_rofi xfe
+bindsym $mod+c exec xfe
+#Mover escritorios entre pantallas
+bindsym $mod+p move workspace to output right
+#Manejar pantallas
+bindsym $mod+Shift+p mode "pantalla"
+
