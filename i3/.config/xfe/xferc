@@ -1,10 +1,9 @@
 [OPTIONS]
-height=692
+height=1018
 toolstoolbar=0
 folder_warn=0
 panel_view=1
-width=1338
-confirm_drag_and_drop=1
+width=626
 use_startup_notification=1
 preserve_date_warn=1
 confirm_delete=1
@@ -14,27 +13,28 @@ auto_save_layout=1
 use_trash_bypass=0
 mount_warn=0
 root_mode=1
+treetwopanels_lpanel_pct=0.4
+xfv_replaced=1
 confirm_overwrite=1
 paneltoolbar=0
 confirm_delete_emptydir=1
 startdir_mode=0
 ask_before_copy=1
 mount_messages=1
-confirm_execute=1
 confirm_properties=1
 twopanels_lpanel_pct=0.5
 vert_panels=1
 root_warn=0
 confirm_trash=1
-treetwopanels_lpanel_pct=0.4
+confirm_execute=1
 status=0
 treetwopanels_tree_pct=0.2
 generaltoolbar=0
 locationbar=0
-xfv_replaced=1
+confirm_drag_and_drop=1
 
 [HISTORY]
-open=dpkg:code:evince:vim:
+open=gimp:code:dpkg:evince:vim:
 
 [KEYBINDINGS]
 search_prev=Shift-Ctrl-G
@@ -116,8 +116,8 @@ deldate_size=150
 origpath_size=200
 liststyle=0
 attr_size=100
-size_size=60
 user_size=50
+hiddenfiles=0
 dirs_first=1
 ext_size=100
 grou_size=50
@@ -127,27 +127,27 @@ sort_func=ascendingCase
 showthumbnails=0
 name_size=200
 lastdir=/home/jose
-hiddenfiles=0
+size_size=60
 
 [SEARCH PANEL]
+grou_size=50
 type_size=100
 search_ypos=0
 search_xpos=0
-liststyle=0
+dir_size=150
 attr_size=100
 user_size=50
 search_height=985
 find_hidden=0
-dir_size=150
+moreoptions=0
 ext_size=100
-sort_func=ascendingCase
-grou_size=50
+liststyle=0
 find_ignorecase=0
 search_width=636
 modd_size=150
 grep_ignorecase=0
 ignore_case=1
-moreoptions=0
+sort_func=ascendingCase
 showthumbnails=0
 name_size=200
 dirs_first=1
@@ -158,23 +158,23 @@ hidden_dir=0
 sort_func=ascendingCase
 
 [LEFT PANEL]
-type_size=152
+type_size=107
 deldate_size=150
 origpath_size=200
 liststyle=0
-attr_size=152
-size_size=90
-user_size=73
+attr_size=107
+user_size=51
+hiddenfiles=0
 dirs_first=1
-ext_size=152
-grou_size=73
-modd_size=224
+ext_size=107
+grou_size=51
+modd_size=159
 ignore_case=1
 sort_func=ascendingCase
 showthumbnails=0
-name_size=996
-lastdir=/media/jose/68B6-9F6D
-hiddenfiles=0
+name_size=704
+lastdir=/home/jose
+size_size=64
 
 [SETTINGS]
 listforecolor=Black

@@ -17,18 +17,20 @@ order += "battery all"
 order += "tztime local"
 
 battery all {
-        format = "🔋%percentage [%remaining]"
+        format = "  %percentage [%remaining]"
 }
 
 tztime local {
-        format = "🗓%Y-%m-%d 🕓%H:%M:%S"
+        format = " %Y-%m-%d  %H:%M:%S"
 }
 
 
 volume master {
-        format = "🔊 %volume"
-        format_muted = "🔇 (%volume)"
+        format = "  %volume"
+        format_muted = " (%volume)"
         device = "pulse"
         mixer = "Master"
         mixer_idx = 0
 }
+
+
