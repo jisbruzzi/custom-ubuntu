@@ -1,9 +1,9 @@
 [OPTIONS]
-height=1018
+height=1486
 toolstoolbar=0
 folder_warn=0
 panel_view=1
-width=626
+width=1476
 use_startup_notification=1
 preserve_date_warn=1
 confirm_delete=1
@@ -34,7 +34,7 @@ locationbar=0
 confirm_drag_and_drop=1
 
 [HISTORY]
-open=gimp:code:dpkg:evince:vim:
+open=vlc:code:dpkg:evince:gimp:google-chrome:vim:
 
 [KEYBINDINGS]
 search_prev=Shift-Ctrl-G
@@ -158,23 +158,23 @@ hidden_dir=0
 sort_func=ascendingCase
 
 [LEFT PANEL]
-type_size=107
+type_size=0
 deldate_size=150
 origpath_size=200
 liststyle=0
-attr_size=107
-user_size=51
+attr_size=0
+user_size=0
 hiddenfiles=0
 dirs_first=1
-ext_size=107
-grou_size=51
-modd_size=159
+ext_size=0
+grou_size=0
+modd_size=0
 ignore_case=1
-sort_func=ascendingCase
+sort_func=ascendingTime
 showthumbnails=0
-name_size=704
-lastdir=/home/jose
-size_size=64
+name_size=1083
+lastdir=/home/jose/Downloads
+size_size=0
 
 [SETTINGS]
 listforecolor=Black

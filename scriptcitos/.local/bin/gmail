@@ -1,1 +1,1 @@
-google-chrome --app=https://mail.google.com/
+firefox --ssb mail.google.com -P gmail-profile

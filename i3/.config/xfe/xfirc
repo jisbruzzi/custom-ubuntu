@@ -1,6 +1,6 @@
 [OPTIONS]
 fileheight_pct=0.25
-width=890
+width=1745
 showtoolbar=1
 grou_size=271
 modd_size=812
@@ -9,10 +9,10 @@ filelist_before=0
 fileview=65
 vert_panels=1
 ext_size=541
-filewidth_pct=0.25
+filewidth_pct=0.19
 size_size=326
 hiddenfiles=0
-height=1453
+height=1486
 liststyle=10485760
 filesshown=1
 type_size=541
@@ -27,4 +27,19 @@ name_size=1084
 tippause=500
 basecolor=#edeceb
 tiptime=10000
+
+[FILEDIALOG]
+type_size=100
+hiddenfiles=0
+width=640
+attr_size=100
+user_size=50
+height=480
+ext_size=100
+grou_size=50
+liststyle=8388608
+modd_size=150
+showthumbnails=0
+name_size=200
+size_size=60
 

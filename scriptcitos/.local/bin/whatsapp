@@ -1,1 +1,1 @@
-google-chrome --app=https://web.whatsapp.com/
+firefox --ssb web.whatsapp.com -P whatsapp-profile

@@ -1,0 +1,2 @@
+em $@
+alacritty --working-directory $@

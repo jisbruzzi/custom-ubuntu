@@ -1,1 +1,2 @@
-google-chrome --app=https://web.telegram.org
+qutebrowser -s tabs.show multiple -s statusbar.hide true https://web.telegram.org/#/im
+#google-chrome --app=https://web.telegram.org
